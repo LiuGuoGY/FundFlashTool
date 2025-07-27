@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/FundFlashTool/static/css/main.9dfc7f04.css",
-    "main.js": "/FundFlashTool/static/js/main.2a819003.js",
-    "index.html": "/FundFlashTool/index.html",
-    "main.9dfc7f04.css.map": "/FundFlashTool/static/css/main.9dfc7f04.css.map",
-    "main.2a819003.js.map": "/FundFlashTool/static/js/main.2a819003.js.map"
+    "main.css": "/static/css/main.9dfc7f04.css",
+    "main.js": "/static/js/main.621aeb4b.js",
+    "index.html": "/index.html",
+    "main.9dfc7f04.css.map": "/static/css/main.9dfc7f04.css.map",
+    "main.621aeb4b.js.map": "/static/js/main.621aeb4b.js.map"
   },
   "entrypoints": [
     "static/css/main.9dfc7f04.css",
-    "static/js/main.2a819003.js"
+    "static/js/main.621aeb4b.js"
   ]
 }
