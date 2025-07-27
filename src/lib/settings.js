@@ -10,7 +10,7 @@ const baudrates = [
 ]
 
 const defaultSettings = {
-    baudRate: 115200,
+    baudRate: 921600,
 }
 
 const loadSettings = () => {

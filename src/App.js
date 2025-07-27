@@ -203,7 +203,7 @@ const App = () => {
       addOutput(`Done!`)
       addOutput(`To run the new firmware please reset your device.`)
 
-      toast.success('Done! Reset ESP to run new firmware.', { position: 'top-center', toastId: 'uploaded', autoClose: 3000 })
+      toast.success('Done! Reset ESP to run new firmware.', { position: 'top-center', toastId: 'uploaded', autoClose: false})
     } else {
       addOutput(`Please add a .bin file`)
 
@@ -255,7 +255,7 @@ const App = () => {
           <Grid item>
             <Buttons
               erase={() => setConfirmErase(true)}
-              program={() => setConfirmProgram(true)}
+              program={() => program()}
               disabled={flashing}
             />
           </Grid>
